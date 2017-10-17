@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os
 
 def makemydir("/tmp/python-created-01"):
