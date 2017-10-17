@@ -4,7 +4,7 @@ import sys
 
 print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
-fold=/tmp/python-dir01
+fold = '/tmp/python-dir01'
 def makemydir(fold):
   try:
     os.makedirs(fold)
