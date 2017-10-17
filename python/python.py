@@ -4,13 +4,13 @@ import sys
 
 print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
-
-def makemydir("/tmp/python-created-01"):
+fold=/tmp/python-dir01
+def makemydir(fold):
   try:
-    os.makedirs("/tmp/python-created-01")
+    os.makedirs(fold)
   except OSError:
     pass
-  os.chdir("/tmp/python-created-01")
+  os.chdir(fold)
 
 mypath = str(sys.argv)
 if not os.path.isdir(mypath):
