@@ -13,7 +13,7 @@ def main(argv):
          sys.exit()
       elif opt in ("-i", "--ifile"):
          folder = arg
-            os.makedirs(folder)
+         os.makedirs(folder)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
